@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 0;
+  border: 6px dashed;
+  border-top: none;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*######################### HEADER DIV1 : TITRE DU SITE ###############*/
+
+#div1 {
+  width: 100%;
+  height: 145px;
+  background-color: #ffb703;
+}
+
+#div1 h1 {
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 600;
+  font-size: 54px;
+}
+
+/*######################## HEADER SOUS-TITRE ################*/
+
+#div2 {
+  margin-top: 30px;
+  width: 100%;
+  height: 80px;
+  background-color: #8ecae6;
+}
+
+#div2 h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+}
+
+/*############################ CORP : (DIV3) LA SAISI DU NOM DE L'APPRENANT.E.S ###############*/
+
+#div3 {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin-top: 60px;
+}
+
+#div3 label {
+  margin-left: 320px;
+  padding-right: 60px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  word-spacing: 10px;
+}
+
+#div3 input {
+  margin-right: 50px;
+  width: 340px;
+  height: 35px;
+  font-size: 23px;
+  caret-color: red;
+}
+
+#aide {
+  height: 50px;
+  width: 270px;
+  border: none;
+  border-radius: 5px;
+  background-color: #023047;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+#aide:hover {
+  background-color: #ffb703;
+  cursor: pointer;
+}
+
+/*######################## CORP : (DIV4) LISTE D'APPRENANT.E.S ###############*/
+
+#div4 {
+  margin-top: 30px;
+  width: 100%;
+  height: 75px;
+  background-color: #8ecae6;
+}
+
+#div4 h3 {
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+}
+
+/*#################### CORP : LES DEUX BOUTONS (DIV5)#####################*/
+
+#div5 {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  height: 60px;
+  margin-right: -500px;
+  padding-top: 15px;
+  justify-content: center;
+}
+
+#suivant {
+  height: 45px;
+  width: 220px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #023047;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+#suivant:hover {
+  background-color: #ffb703;
+}
+
+#raffraichir {
+  height: 45px;
+  width: 280px;
+  border: none;
+  border-radius: 5px;
+  background-color: #023047;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+#raffraichir:hover {
+  background-color: #ffb703;
+}
+
+/*############################## TABLEAU #########################*/
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+/*####################### BOUTON JE PASSE MON TOUR ####################333*/
+
+.btnpassemontour {
+  width: 250px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fb8500;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btnpassemontour:hover {
+  background-color: #023047;
+}
+
+/* GENERAL */
+.Nom {
+  text-transform: capitalize;
+}
+
+/*######### FONCTION DE CHANGEMENT DE JE PASSE MON TOUR  */
+
+.text-decoration {
+  text-decoration: line-through;
+}
+
+.background-color {
+  background-color: grey;
+}
+
+/* PREMIER LIGNE TABLEAU EN VERT */
+
+/* .Nom1:first-child {
+  background-color: green;
+}
+
+.Date1 {
+  background-color: green;
+}
+
+.Passersontour1 {
+  background-color: green;
+} */

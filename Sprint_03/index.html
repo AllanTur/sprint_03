@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="app.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Distributeur de tickets pour la promo</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="div1">
+        <h1>
+          Distributeur de tickets pour la promo
+          <span style="font-size: 3.6rem">&#127915;</span>
+        </h1>
+      </div>
+
+      <div id="div2">
+        <h2>
+          <span>&#128125;</span> Ici c'est comme à la poissonerie
+          <span>&#128032;</span>, il faut faire la queue !
+        </h2>
+      </div>
+    </header>
+
+    <div id="div3">
+      <label for="text">Ton nom :</label>
+      <input id="apprenantInput" type="text" />
+      <button onclick="addApprenant()" id="aide" type="button">
+        Je veux de l'aide <span>&#128075;</span>
+      </button>
+    </div>
+
+    <div id="div4">
+      <h3>Liste des apprenant.e.s</h3>
+    </div>
+
+    <div id="div5">
+      <button onClick="traiterName(this)" id="suivant">
+        Au suivant <span>&#128168;</span> !
+      </button>
+
+      <button id="raffraichir">
+        Raffraîchir la liste <span>&#128260;</span>
+      </button>
+    </div>
+
+    <table id="tr1">
+      <tr>
+        <th>Nom</th>
+        <th>Date</th>
+        <th>Passer mon tour</th>
+      </tr>
+    </table>
+    <table id="tr2">
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </table>
+  </body>
+</html>
